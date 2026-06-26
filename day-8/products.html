@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          body{
+            height:100vh;
+            font-family: Arial, Helvetica, sans-serif;
+
+             display: flex;  
+            justify-content:center;
+            gap:20px;
+            align-items: center;
+            flex-wrap: wrap;
+         }
+         
+        .product img{
+             width:250px;
+            height: 250px; 
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product{
+            border:1px solid black;
+        border-radius: 10px;
+        width:250px;
+        margin: 18px;
+        padding: 8px;
+        /* box-shadow:Xaxis Yaxis SpreadRadius color ; */
+        box-shadow:4px 4px 8px black
+        
+     }
+    div button{
+        border-radius: 10px;
+        border:none;
+        background-color: skyblue;
+        text-align: center;
+        padding: 10px;
+        width:100%
+ }
+ div h2{
+    border-bottom: 1px solid black;
+    text-align: center;
+ }  
+    </style> 
+
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/18205642/pexels-photo-18205642.jpeg">
+        <h2>Ipad</h2>
+        <p>Rs.20000</p>
+        <button>Buy now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/33797585/pexels-photo-33797585.jpeg">
+        <h2>Mobile</h2>
+        <p>Rs. 10000</p>
+        <button>Buy now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/8457654/pexels-photo-8457654.jpeg">
+        <h2>Ear pods</h2>
+        <p>Rs.1000</p>
+        <button>Buy now</button>
+    </div>
+
+     <div class="product">
+        <img src="https://images.pexels.com/photos/11031515/pexels-photo-11031515.png">
+        <h2>smart watch</h2>
+        <p>Rs.2000</p>
+        <button>Buy now</button>
+    </div>
+</body>
+</html>
